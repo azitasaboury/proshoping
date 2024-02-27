@@ -1,0 +1,618 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#ashop1:hover{
+    border-bottom: 2px solid black;
+}
+
+#op2:hover{
+    border-bottom: 2px solid black !important;
+}
+#navbarsupportedContend{
+    background-color: white !important;
+
+}
+#navbarsupportedContend ul{
+    text-decoration: none;
+}
+#menuham{
+    background-color: white;
+}
+#smalsearch{
+    right: 2%;
+}
+
+#navar{
+    height: 72px;
+    background-color: white !important;
+}
+.nav-underline{
+  height: 72px;
+  border-bottom: 1px solid rgb(104, 102, 102);
+  padding-top: 15px;
+ 
+
+}#navar{
+   
+    left: 0;
+    right: 0;
+ background-color: white;
+    position: fixed;
+    z-index: 1000;
+ 
+ 
+}
+#iconee{
+    opacity: 0;
+}
+#NewArrivals  ,#neww{
+    color: rgb(188, 133, 93) !important;
+}
+#search{
+    cursor: pointer;
+}
+
+
+/* div searchBar hide */
+#SearchBar{
+    border-bottom: 1px solid rgb(104, 102, 102);
+    top:24px;
+    z-index: 1000;
+  opacity:0;
+    width: 100%;
+    height:85px;
+    transition: all 0.4s 
+} 
+#SearchBar input{
+    width:78%;
+    height: 100%;
+    outline: none;
+
+   
+}
+
+#closeicon{
+    right: 2%;
+    outline: none;
+    
+}
+
+.active{
+    opacity: 1!important;
+    visibility: visible!important;
+}
+
+
+#megameno{
+    transition: all 0.4s;
+    top:72px!important;
+    background-color:white;
+    border-bottom: 1px solid rgb(170, 167, 167);
+    display:flex;
+    justify-content: center;
+    visibility: hidden;
+    position: fixed;
+    left:0;
+    right:0;
+    height:500px;
+    width: 100%; 
+    z-index: 10000 !important;
+
+}
+
+
+#menuham{
+right:100%;
+    background-color: white;
+   
+    width: 380px;
+    height: 700px;
+}
+.activemenu{
+    left:2px;
+}
+#iconee{
+    cursor: pointer;
+}
+#Account p:hover{
+    color: black;
+}
+#Storee p:hover{
+    color: black;
+}
+#divhambig2{
+cursor: pointer;    width:300px;
+    height:600px;
+
+}
+#divhambig{
+    width: 380px;
+    height: 1100px;
+  
+
+}
+#divmenoo1 div{
+    background-color: white;
+    cursor: pointer;
+    width: 220px;
+    height: 500px;
+}
+
+#divmenoo1 {
+    width:60%;
+    height: 100%;
+    
+}
+
+#divmenoo1  ul li{
+    outline: none;
+    text-decoration: none;
+    list-style:none;
+    border-bottom: none;
+    cursor: pointer;
+}
+#divmenoo2 {
+    width: 30%;
+}
+#divmenoo2 img{
+    right: 0 !important;
+   width:70;
+   cursor: pointer;
+}
+
+
+div meno*/
+
+ #megameno-box {
+    width: 60%;
+    display: flex;
+    padding: 25px 30px;
+} 
+li:hover{
+    border-bottom:2px solid rgb(62, 62, 62);
+ 
+}
+
+li:hover>#megameno{
+    opacity: 1 !important;
+    visibility: visible;
+}
+#p-Yourlife{z-index: 1000;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(21, 48, 167);
+}
+
+
+
+/*  */
+.setone{background-color: rgb(85, 49, 6);
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+    height:740px;
+    
+}
+
+
+.setone img{
+    object-fit: fill; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.setone button{
+    
+    position: absolute;
+    margin-bottom:0;
+    top:89%
+}
+.setone p{
+    position: absolute;
+     margin-bottom: 0;
+     top: 83%;
+}
+
+#btnshop{
+    border-radius:0;
+    bottom: 0%;
+}#btnshop:hover{
+    filter: grayscale(0.7);
+}
+
+#pNewArrivais{
+    bottom: 11%;
+}
+#per{
+    width: 100%;
+    height:1px;
+    background-color: aqua;
+}
+
+#productlist1{
+    height:150px;
+    width: 100%;
+    background-color: rgb(7, 62, 62);
+
+}
+
+
+
+#settwo{
+
+  
+    background-color: rgb(254, 252, 252);
+    width:100%;
+    height:700px;
+    
+}
+#settwo-1, #settwo-2,#settwo-3{position: relative;
+    width:35%;
+    height: 600px !important;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  
+
+
+}
+#settwo-1 img{
+    filter: brightness(0.6);
+    position: absolute;
+    width:100%;
+
+    height: 100%;
+}#settwo-1 p{
+    position: absolute;
+}
+#settwo-2 p{
+    position: absolute;
+}
+#settwo-2 img{
+    filter: brightness(0.6);
+    position: absolute;
+    width:100%;
+
+    height: 100%;
+}
+#settwo-3 p{
+    position: absolute;
+}
+#settwo-3 img{
+    filter: brightness(0.6);
+    position: absolute;
+    width:100%;
+
+    height: 100%;
+}
+
+#productlist{
+    height:120px;
+    width: 100%;
+
+}
+
+/*  */
+#setthree{
+    /* background-color: rgb(245, 245, 245); */
+    width:100%;
+    height:650px;
+}
+#setthree1, #setthree2 ,#setthree3,#setthree4, #setthree5{position: relative;
+    width:24%;
+    height:570px !important;
+    cursor: pointer;
+  
+
+}
+#setthree1 p{
+    position: absolute;
+}
+#setthree1 img{
+   
+    position: absolute;
+    width:100%;
+
+    height: 84%;
+}
+#setthree2 img{
+    position: absolute;
+    width:100%;
+
+    height:84%;
+}#plaspcu ,#plaspcu1{
+    position: absolute;
+    z-index: 1000;
+    padding-right: 0%!Important;
+    padding: 0 ,2%;
+    margin:146% 90%;
+}
+#plaspcu1{position: absolute;
+    opacity:1;
+    padding-right: 0%!Important;
+    padding: 0 ,2%;
+    margin: 90px 90%;
+    
+}
+#divnone{
+opacity: 0;
+    background-color:white;
+    height:94px;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    padding-right: 0%!Important;
+    padding: 0 ,2%;
+    margin:131% 0%;
+    gap:8px;
+  
+}
+.shoow{
+    opacity: 1 !important;
+    visibility: visible! Important ;
+}
+
+.show{
+    opacity: 1 !important;
+    visibility: visible! Important ;
+}
+#childdivnone{
+    height: 17px;
+    width:17px;
+   
+}
+
+
+
+.image2:hover{
+    opacity: 0;
+}
+#divnone:hover{
+    opacity: 1 !important;
+}
+.image2none:hover{
+    opacity: 1 !important;
+}.image2none{
+    opacity: 0;
+}
+
+
+#setthree2 p{
+    position: absolute;
+}
+
+#setthree3 img{
+  position: absolute;
+    width:100%;
+
+    height: 84%;
+}
+#setthree3 p{
+    position: absolute;
+}
+#setthree4 img{
+    
+    position: absolute;
+    width:100%;
+
+    height:84%;
+}
+#setthree4 p{
+    position: absolute;
+}
+#setthree5 img{
+ 
+    position: absolute;
+    width:100%;
+
+    height:84%;
+}
+
+    
+
+#setthree5 p{
+    position: absolute;
+}.div3{
+    background-color: rgb(110, 96, 77);
+
+}
+.div2{
+    background-color: rgb(108, 87, 59);
+}
+
+.div4{
+    background-color: rgb(61, 60, 58);
+    left:24%;
+}
+.div5{
+    left:32%;
+    background-color: rgb(188, 192, 117);
+}
+.div6{
+    left: 39%;
+    background-color: rgb(214, 212, 108);
+}
+.div7{
+    left: 46%;
+    background-color: rgb(156, 170, 73);
+}
+.div8{
+    left:54% ;
+    background-color: rgb(156, 98, 4);
+}
+
+
+
+#setfour{
+    width: 100%;
+    height: 850px;
+    background-color: rgb(250, 254, 254);
+}#setfour div{position: relative;
+    width:100%;
+    height:800px;
+}
+#setfour img{
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+#set5{
+    width: 100%;
+    height:650px;
+    background-color: aquamarine;
+}#set5 img{
+    width: 48%;
+    height: 70%;
+}#picuendset  ,#picuendset1 {
+    height:590px;
+    width: 100%;
+ 
+}
+#picuendset  div ,#picuendset1  div{
+    height: 100%;
+    width:48%;
+} #picuendset div img{
+    height:86%;
+    width: 100%;
+}#setbig{
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(246, 236, 236, 0.9) ;
+}
+
+#setend{
+    width: 100%;
+    height:485px;
+    background-color: rgba(246, 236, 236, 0.9);
+
+}
+#setmatnp{
+    height: 300px;
+    width: 80%;
+    background-color: rgba(246, 236, 236, 0.9) !important;
+
+}
+#fotter{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(77, 10, 10, 0.9) !important;
+}#parent{
+    width: 100%;
+    height: 98%;
+    background-color: rgba(209, 173, 173, 0.9) !important;
+
+}
+#parent div li{
+    cursor: pointer;
+}
+#parent div{
+   
+    width: 50%;
+    height: 100%;
+}
+#picuendset1{
+
+    background-color: rgba(22, 119, 87, 0.9) !important;
+  
+}#picuendset2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    left: 0 !important;
+}
+
+
+#picuendset1   li ,#picuendset2 li{
+    list-style: none;
+    cursor: pointer;
+}#inpfotter{
+    outline: none;
+    width: 600px;
+    height:45px ;
+    background-color: rgba(246, 236, 236, 0.9) !important;
+}
+#div1 {    background-color: rgba(246, 236, 236, 0.9) !important;
+
+}
+#div1>div{background-color: rgba(246, 236, 236, 0.9) !important;
+    
+}
+
+#copy
+{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(246, 236, 236, 0.9) !important;
+
+}
+footer{
+    background-color: rgba(246, 236, 236, 0.9) !important;
+    height:auto;
+    cursor: pointer;
+}
+
+/*  */
+
+footer input{
+    width: 389px !important;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/*  */
+/* دیو هاور */
+.dhaver{
+    margin:90% , 0;
+    bottom: 18%;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 2s;
+}
+
+
+.dhaver:hover{
+    opacity: 1;
+}
+
+#nhover{
+    position: absolute;
+    opacity: 0;
+  
+
+}
+
+.divsmalh {
+    opacity: 0;
+    height: 100px;
+    width: 100%;
+    transition:  all 1s;
+}
+.divsmalh :hover{
+    opacity: 1;
+}
+#divsmboton{
+    width: 100%;
+    height: 106px;
+    bottom:1px !important;
+    opacity: 0;
+  transition: all 2s;
+}
+#divsmboton:hover{
+    opacity: 1 !important;
+}
+.plase{position: absolute;
+
+margin-top:auto !important;
+bottom:119px;
+left:88%!important;
+}
+#divsmboton .plase{
+    opacity: 1 !important;
+}
